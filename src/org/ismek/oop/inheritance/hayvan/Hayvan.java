@@ -7,6 +7,10 @@ public class Hayvan {
 	public String renk;
 	int yas;
 	
+	public Hayvan() {
+		System.out.println("HAYVAN ÜRETÝLDÝ");
+	}
+	
 	void beslenir() {
 		
 	}
