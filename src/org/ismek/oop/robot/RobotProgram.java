@@ -8,6 +8,9 @@ public class RobotProgram {
 		robot.isim = "POKEMON";
 		robot.boy = 150;
 		robot.renk = "SARI";
+		robot.setKilo(5);
+		robot.getKilo();
+		
 		
 		robot.kendiniTanit();
 		System.out.println();

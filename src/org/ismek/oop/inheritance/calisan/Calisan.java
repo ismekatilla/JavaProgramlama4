@@ -14,6 +14,7 @@ public class Calisan {
 		
 	}
 	
+	// OKUNABÝLÝR
 	public String getIsim() {
 		if (this.meslek == EnumMeslek.DOKTOR) {
 			return "Dr. " + isim;
@@ -22,6 +23,7 @@ public class Calisan {
 		}
 	}
 	
+	// YAZILABÝLÝR
 	public void setIsim(String isimDisardanGelen) {
 		isim = isimDisardanGelen;
 	}
